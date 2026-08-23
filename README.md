@@ -18,3 +18,4 @@ The program takes a binary number as input and converts it to decimal using the 
 
 Input:
 ```text
+1010
