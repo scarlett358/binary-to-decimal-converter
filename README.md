@@ -32,7 +32,9 @@ For example:
 **Invalid Input:** `10201`
 
 **Output:** `Invalid binary number!`
+## Demo
 
+![Program Demo](demo.png)
 ## How to Run
 
 ### Compile
