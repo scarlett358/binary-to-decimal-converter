@@ -34,7 +34,7 @@ For example:
 **Output:** `Invalid binary number!`
 ## Demo
 
-![Program Demo](demo.png)
+![Program Demo](demo)
 ## How to Run
 
 ### Compile
