@@ -16,7 +16,10 @@ The program takes a binary number as input and converts it to decimal using the 
 
 ## Example
 
-### Input
+**Input:** `1010`
 
-```text
-1010
+**Output:** `10`
+
+**Input:** `11001`
+
+**Output:** `25`
