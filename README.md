@@ -1,18 +1,23 @@
 # Binary to Decimal Converter
 
-## About
-
-A simple C++ program that converts binary numbers into their decimal equivalents.
-
-## How It Works
-
-The program takes a binary number as input and converts it to decimal using the binary place-value system.
+A simple C++ command-line program that converts binary numbers into their decimal equivalents.
 
 ## Features
 
 - Converts binary numbers to decimal
+- Validates user input
+- Detects invalid binary numbers
 - Simple command-line interface
-- Written in C++
+
+## How It Works
+
+The program reads each binary digit from left to right.
+
+For every digit, the current decimal value is multiplied by 2 and the next binary digit is added.
+
+For example:
+
+1010₂ = 10₁₀
 
 ## Example
 
@@ -23,3 +28,14 @@ The program takes a binary number as input and converts it to decimal using the 
 **Input:** `11001`
 
 **Output:** `25`
+
+**Invalid Input:** `10201`
+
+**Output:** `Invalid binary number!`
+
+## How to Run
+
+### Compile
+
+```bash
+g++ main.cpp -o binary_converter
