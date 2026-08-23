@@ -16,6 +16,7 @@ The program takes a binary number as input and converts it to decimal using the 
 
 ## Example
 
-Input:
+### Input
+
 ```text
 1010
